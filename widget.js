@@ -1,7 +1,7 @@
 (function() {
   // ====== CONFIG ======
   // IMPORTANT: Change this to your real n8n webhook URL once n8n is set up
-  const API_ENDPOINT = 'https://YOUR-N8N-URL.com/webhook/chat';
+  const API_ENDPOINT = 'https://jaxsonl.app.n8n.cloud/webhook-test/chat';
   const scriptTag = document.currentScript;
   const SHOP_ID = scriptTag.getAttribute('data-shop-id') || 'default';
   const SESSION_ID = 'sess_' + Math.random().toString(36).slice(2) + Date.now();
